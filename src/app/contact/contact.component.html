@@ -1,0 +1,10 @@
+<div class= "courses card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div *ngIf="courseDetails">
+    <div *ngFor="let course of courseDetails" class="card-body">
+      <h5 class="card-title">{{course.name}}</h5>
+      <p class="card-text">{{course.fees}}</p>
+      <a href="#" class="btn btn-primary">{{course.description}}</a>
+    </div>
+</div>
+  </div>
